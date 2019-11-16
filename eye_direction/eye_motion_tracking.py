@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import time
 
-_VIDEO_FILE_NAME = ["eye_recording.flv", 1]
+_VIDEO_FILE_NAME = ["eye_recording.flv", 0]
 cap = cv2.VideoCapture(_VIDEO_FILE_NAME[1])
 
 
